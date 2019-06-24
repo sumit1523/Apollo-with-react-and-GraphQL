@@ -41,8 +41,7 @@ class App extends Component {
               if(loading) return 'Loading...';
               const { posts } = data;
               console.log(posts);
-              return posts.map(post => <h3>{post.title}</h3>)
-
+              return posts.map(post => <h3 key={post.id}>{post.title}</h3>)
             }}
           </Query>
         </header>
