@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+USED 
+
+1. GraphQl
+2. Apollo Client
+3. GraphCMS
+
 ## Available Scripts
 
 In the project directory, you can run:
